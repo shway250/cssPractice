@@ -1,0 +1,19 @@
+/* FLEX BOX BIDNESS*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: lightgrey;
+
+    flex-direction: row-reverse;
+
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
